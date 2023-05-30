@@ -148,7 +148,7 @@ body {
     .barra-busqueda {
         border: none;
         left: 45%;
-        top: 3%;
+        top: 15px;
     }
     .barra-busqueda input {
         display: none;
