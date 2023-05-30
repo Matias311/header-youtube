@@ -140,22 +140,28 @@ body {
 @media screen and (max-width:800px){
     .barra-busqueda {
         margin: 5px;
+        top: 8%;
+        left: 10%;
+        width: 40%;
+        padding: 8px;
     }
     .barra-busqueda input {
         width: 75%;
         padding-bottom: 2px;
     }
     .barra-busqueda .search{
-        left: 80%;
+        left: 78%;
+        height: 50%;
+        margin-bottom: 12px;
     }
 
     .iconos-lateral .videocam {
-        left: 75%;
-        top: 2.5%;
+        left: 70%;
+        top: 9.8%;
     }
 
     .iconos-lateral .notifications {
-        top: 2.5%;
-        left: 81%;
+        top: 9.8%;
+        left: 80%;
     }
 }
