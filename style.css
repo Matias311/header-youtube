@@ -1,0 +1,161 @@
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.774);
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.logo-youtube {
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-youtube img {
+    position: absolute;
+    left: 30px;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+.logo-youtube h1 {
+    position: absolute;
+    font-weight: 400;
+    letter-spacing: -1px;
+    font-size: 20px;
+    color: #fff;
+    top: 12.5px;
+    left: 79px;
+    margin: 10px;
+}
+
+.barra-busqueda {
+    display: inline-block;
+    position: absolute;
+    padding: 5px 10px;
+    border: solid 1px grey;
+    border-radius: 20px;
+    align-content: center;
+    width: 30%;
+    height: 3%;
+    left: 30%;
+    top: 12.5px;
+    margin: 0px 5% 0px 5%;
+}
+
+.barra-busqueda input {
+    position: absolute;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    padding-top: 5px;
+    font-size: 13px;
+    flex: auto;
+    background-color: transparent;
+    color: #fff;
+    align-content: center;
+    width: 88%;
+}
+
+.barra-busqueda .search {
+    position: absolute;
+    border: none;
+    outline: none;
+    left: 90%;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.barra-busqueda .mic {
+    position: absolute;
+    padding-top: 5px;
+    align-content: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 100%;
+    width: auto;
+    left: 102%;
+    top: 1px;
+    background-color: rgba(128, 128, 128, 0.132);
+    color: #fff;
+}
+.iconos-lateral .videocam {
+    position: absolute;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    left: 81%;
+    top: 18px;
+    margin: 0px 5% 0px 5%;
+}
+
+
+.iconos-lateral .notifications {
+    position: absolute;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    left: 84%;
+    top: 18px;
+    margin: 0px 5% 0px 5%;
+}
+
+/* Modificaciones para pantalla */
+
+@media screen and (max-width:800px){
+    .barra-busqueda {
+        margin: 5px;
+    }
+    .barra-busqueda input {
+        width: 75%;
+        padding-bottom: 2px;
+    }
+    .barra-busqueda .search{
+        left: 80%;
+    }
+
+    .iconos-lateral .videocam {
+        left: 75%;
+        top: 2.5%;
+    }
+
+    .iconos-lateral .notifications {
+        top: 2.5%;
+        left: 81%;
+    }
+}
