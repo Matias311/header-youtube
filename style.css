@@ -148,7 +148,7 @@ body {
     .barra-busqueda {
         border: none;
         left: 45%;
-        top: 12.5px;
+        top: 12.6px;
     }
     .barra-busqueda input {
         display: none;
@@ -156,7 +156,7 @@ body {
     .barra-busqueda .search{
         height: 50%;
         margin-bottom: 12px;
-        left: 77%;
+        left: 77.2%;
     }
 
     .iconos-lateral .videocam {
