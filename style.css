@@ -138,6 +138,13 @@ body {
 /* Modificaciones para pantalla */
 
 @media screen and (max-width:800px){
+    .logo-youtube img {
+        left: 10px;
+    }
+    .logo-youtube h1 {
+        left: 60px;
+    }
+
     .barra-busqueda {
         border: none;
         left: 45%;
