@@ -139,29 +139,23 @@ body {
 
 @media screen and (max-width:800px){
     .barra-busqueda {
-        margin: 5px;
-        top: 8%;
-        left: 10%;
-        width: 40%;
-        padding: 8px;
+        border: none;
+        left: 45%;
     }
     .barra-busqueda input {
-        width: 75%;
-        padding-bottom: 2px;
+        display: none;
     }
     .barra-busqueda .search{
-        left: 78%;
         height: 50%;
         margin-bottom: 12px;
+        left: 77%;
     }
 
     .iconos-lateral .videocam {
-        left: 70%;
-        top: 9.8%;
+        display: none;
     }
 
     .iconos-lateral .notifications {
-        top: 9.8%;
-        left: 80%;
+        display: none;
     }
 }
