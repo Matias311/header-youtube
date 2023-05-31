@@ -39,6 +39,16 @@ body {
     align-items: center;
 }
 
+.menu {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    position: absolute;
+    top: 2.5%;
+    left: 0.5%;
+    padding: 0px;
+}
+
 .logo-youtube img {
     position: absolute;
     left: 30px;
@@ -110,30 +120,137 @@ body {
     background-color: rgba(128, 128, 128, 0.132);
     color: #fff;
 }
-.iconos-lateral .videocam {
+
+.iconos-lateral {
     position: absolute;
-    border: none;
-    outline: none;
+    top: 12.5px;
+    left: 89.5%;
+    flex-direction: row;
+    gap: 5%;
+    padding: 5px 10px;
+}
+
+.videocam {
     background-color: transparent;
+    border: none;
     color: #fff;
-    cursor: pointer;
-    left: 81%;
-    top: 18px;
-    margin: 0px 5% 0px 5%;
+}
+
+.notifications {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+
+.usuario {
+    background-color: transparent;
+    border: none;
+    color: #fff;
 }
 
 
-.iconos-lateral .notifications {
+.filtros {
+    display: flex;
     position: absolute;
-    border: none;
-    outline: none;
-    background-color: transparent;
-    color: #fff;
-    cursor: pointer;
-    left: 84%;
-    top: 18px;
-    margin: 0px 5% 0px 5%;
+    top: 7.5%;
+    left: 16%;
+    gap: 2%;
+    margin-right: 100%;
 }
+
+.all-btn {
+    border: none;
+    border-radius: 8px;
+    padding: 0px 12px;
+    align-items: center;
+    font-size: 14px;
+    height: 32px;
+    width: 40px;
+}
+
+.gaming-btn {
+    border: none;
+    border-radius: 8px;
+    padding: 0px 12px;
+    align-items: center;
+    font-size: 14px;
+    height: 32px;
+    width: 70px;
+    background-color: rgba(128, 128, 128, 0.132);
+    color: #fff;
+}
+
+.mixes-btn {
+    border: none;
+    border-radius: 8px;
+    padding: 0px 12px;
+    align-items: center;
+    font-size: 14px;
+    height: 32px;
+    width: 70px;
+    background-color: rgba(128, 128, 128, 0.132);
+    color: #fff;
+}
+
+.music-btn {
+    border: none;
+    border-radius: 8px;
+    padding: 0px 12px;
+    align-items: center;
+    font-size: 14px;
+    height: 32px;
+    width: 70px;
+    background-color: rgba(128, 128, 128, 0.132);
+    color: #fff;
+}
+
+.news-btn {
+    border: none;
+    border-radius: 8px;
+    padding: 0px 12px;
+    align-items: center;
+    font-size: 14px;
+    height: 32px;
+    width: 70px;
+    background-color: rgba(128, 128, 128, 0.132);
+    color: #fff;
+}
+
+.computer-btn {
+    border: none;
+    border-radius: 8px;
+    padding: 0px 12px;
+    align-items: center;
+    font-size: 14px;
+    height: 32px;
+    width: 230px;
+    background-color: rgba(128, 128, 128, 0.132);
+    color: #fff;
+}
+
+.debates-btn {
+    border: none;
+    border-radius: 8px;
+    padding: 0px 10px;
+    align-items: center;
+    font-size: 14px;
+    height: 32px;
+    width: 70px;
+    background-color: rgba(128, 128, 128, 0.132);
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Modificaciones para pantalla */
 
