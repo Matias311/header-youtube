@@ -495,7 +495,7 @@ aside {
     color: #fff;
     margin: 2px 5px 10px 2px;
     padding: 2px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .canal-1 {
@@ -660,13 +660,12 @@ aside {
 
 
 
-
-
-
-
 /* Modificaciones para pantalla */
 
 @media screen and (max-width:800px){
+    .menu {
+        display: none;
+    } 
     .logo-youtube img {
         left: 10px;
     }
@@ -685,7 +684,11 @@ aside {
     .barra-busqueda .search{
         height: 50%;
         margin-bottom: 12px;
-        left: 77.2%;
+        left: 85%;
+    }
+
+    .mic {
+        display: none;
     }
 
     .iconos-lateral .videocam {
@@ -693,6 +696,91 @@ aside {
     }
 
     .iconos-lateral .notifications {
+        display: none;
+    }
+
+    .filtros {
+        position: absolute;
+        top: 63px;
+        right: 300px;
+        margin: 0;
+        gap: 5%;
+    }
+
+    .new-btn {
+        display: none;
+    }
+
+    .computer-btn {
+        display: none;
+    }
+
+    .debates-btn {
+        display: none;
+    }
+
+    .live-btn {
+        display: none;
+    }
+
+    .combat-btn {
+        display: none;
+    }
+
+    .car-btn {
+        display: none;
+    }
+
+    .watch-btn {
+        display: none;
+    }
+
+    .new-btn {
+        display: none;
+    }
+
+    aside {
+        position: absolute;
+        top: 100%;
+        left: 10px;
+        height: 60px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .container-section-1 {
+        position: absolute;
+        top: 100%;
+        flex-direction: row;
+    }
+
+    .btn-home {
+        flex-direction: row;
+    }
+    
+    .container-section-2 {
+
+    }
+
+    .btn-history {
+        display: none;
+    }
+
+    .btn-your-videos {
+        display: none;
+    }
+
+    .btn-watch-later {
+        display: none;
+    }
+
+    .btn-liked-videos {
+        display: none;
+    }
+
+    .container-section-3 {
         display: none;
     }
 }
