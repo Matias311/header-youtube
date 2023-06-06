@@ -45,13 +45,13 @@ body {
     color: #fff;
     position: absolute;
     top: 2.5%;
-    left: 0.5%;
+    left: 0.8%;
     padding: 0px;
 }
 
 .logo-youtube img {
     position: absolute;
-    left: 30px;
+    left: 34px;
     height: 50px;
     width: 50px;
     margin: 10px;
@@ -64,7 +64,7 @@ body {
     font-size: 20px;
     color: #fff;
     top: 12.5px;
-    left: 79px;
+    left: 85px;
     margin: 10px;
 }
 
@@ -154,7 +154,7 @@ body {
     position: absolute;
     top: 7.5%;
     left: 16%;
-    gap: 2%;
+    gap: 1%;
     margin-right: 100%;
 }
 
@@ -219,11 +219,11 @@ body {
 .computer-btn {
     border: none;
     border-radius: 8px;
-    padding: 0px 12px;
+    padding: 0px;
     align-items: center;
     font-size: 14px;
     height: 32px;
-    width: 230px;
+    width: 189px;
     background-color: rgba(128, 128, 128, 0.132);
     color: #fff;
 }
@@ -240,11 +240,423 @@ body {
     color: #fff;
 }
 
+.live-btn {
+    border: none;
+    border-radius: 8px;
+    padding: 0px 10px;
+    align-items: center;
+    font-size: 14px;
+    height: 32px;
+    width: 70px;
+    background-color: rgba(128, 128, 128, 0.132);
+    color: #fff;
+}
 
+.combat-btn {
+    border: none;
+    border-radius: 8px;
+    padding: 0px 10px;
+    align-items: center;
+    font-size: 14px;
+    height: 32px;
+    width: 180px;
+    background-color: rgba(128, 128, 128, 0.132);
+    color: #fff;
+}
 
+.car-btn {
+    border: none;
+    border-radius: 8px;
+    padding: 0px 10px;
+    align-items: center;
+    font-size: 14px;
+    height: 32px;
+    width: 70px;
+    background-color: rgba(128, 128, 128, 0.132);
+    color: #fff;
+}
 
+.watch-btn {
+    border: none;
+    border-radius: 8px;
+    padding: 0px 10px;
+    align-items: center;
+    font-size: 14px;
+    height: 32px;
+    width: 70px;
+    background-color: rgba(128, 128, 128, 0.132);
+    color: #fff;
+}
 
+.new-btn {
+    border: none;
+    border-radius: 8px;
+    padding: 0px;
+    align-items: center;
+    font-size: 14px;
+    height: 32px;
+    width: 130px;
+    background-color: rgba(128, 128, 128, 0.132);
+    color: #fff;
+}
 
+.arrow-icon {
+    border: none;
+    border-radius: 8px;
+    padding: 0px 10px;
+    align-items: center;
+    font-size: 14px;
+    height: 32px;
+    width: 70px;
+    background-color: transparent;
+    color: #fff;
+}
+
+aside {
+    position: absolute;
+    top: 8%;
+    left: 0.2%;
+    height: 80vh;
+}
+
+.btn-home {
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    height: 30px;
+    align-items: center;
+}
+
+.btn-home-icono {
+    color: #fff;
+    background-color: transparent;
+    border: none;
+}
+
+.btn-home-name {
+    color: #fff;
+    font-size: 14px;
+}
+
+.btn-shorts {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    align-items: center;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.btn-shorts-icono {
+    color: #fff;
+    background-color: transparent;
+    border: none;
+}
+
+.btn-shorts-name {
+    color: #fff;
+    font-size: 14px;
+}
+
+.btn-subscription {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    align-items: center;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.btn-subscription-icono {
+    color: #fff;
+    background-color: transparent;
+    border: none;
+}
+
+.btn-subscriptions-name {
+    color: #fff;
+    font-size: 14px;
+}
+
+.container-section-2 {
+    border-top: 1px solid white;
+    margin: 12px 0px 0px;
+    padding: 12px 0px 0px;
+}
+
+.btn-library {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    align-items: center;
+    padding-right: 10px;
+    padding-bottom: 8px;
+}
+
+.btn-library-icon {
+    color: #fff;
+    background-color: transparent;
+    border: none;
+}
+
+.btn-library-name {
+    color: #fff;
+    font-size: 14px;
+}
+
+.btn-history {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    align-items: center;
+    padding-right: 10px;
+    padding-bottom: 8px;
+}
+
+.btn-history-icon {
+    color: #fff;
+    background-color: transparent;
+    border: none;
+}
+
+.btn-history-name {
+    color: #fff;
+    font-size: 14px;
+}
+
+.btn-your-videos {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    align-items: center;
+    padding-right: 10px;
+    padding-bottom: 8px;
+}
+
+.btn-your-videos-icon {
+    color: #fff;
+    background-color: transparent;
+    border: none;
+}
+
+.btn-your-videos-name {
+    color: #fff;
+    font-size: 14px;
+}
+
+.btn-watch-later {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    align-items: center;
+    padding-right: 10px;
+    padding-bottom: 8px;
+}
+
+.btn-watch-later-icon {
+    color: #fff;
+    background-color: transparent;
+    border: none;
+}
+
+.btn-watch-later-name {
+    color: #fff;
+    font-size: 14px;
+}
+
+.btn-liked-videos {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    align-items: center;
+    padding-right: 10px;
+    padding-bottom: 8px;
+}
+
+.btn-liked-videos-icon {
+    color: #fff;
+    background-color: transparent;
+    border: none;
+}
+
+.btn-liked-videos-name {
+    color: #fff;
+    font-size: 14px;
+}
+
+.container-section-3 {
+    border-top: 1px solid white;
+    margin: 12px 0px 0px;
+    padding: 12px 0px 0px;
+}
+
+.titulo-subscription {
+    color: #fff;
+    margin: 2px 5px 10px 2px;
+    padding: 2px;
+    font-size: 14px;
+}
+
+.canal-1 {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    align-items: center;
+    padding-right: 10px;
+    padding-bottom: 8px;
+}
+
+.canal-1-icono {
+    color: #fff;
+    background-color: transparent;
+    border: none;
+}
+
+.canal-1-name {
+    color: #fff;
+    font-size: 14px;
+}
+
+.canal-2 {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    align-items: center;
+    padding-right: 10px;
+    padding-bottom: 8px;
+}
+
+.canal-2-icono {
+    color: #fff;
+    background-color: transparent;
+    border: none;
+}
+
+.canal-2-name {
+    color: #fff;
+    font-size: 14px;
+}
+
+.canal-3 {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    align-items: center;
+    padding-right: 10px;
+    padding-bottom: 8px;
+}
+
+.canal-3-icono {
+    color: #fff;
+    background-color: transparent;
+    border: none;
+}
+
+.canal-3-name {
+    color: #fff;
+    font-size: 14px;
+}
+
+.canal-4 {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    align-items: center;
+    padding-right: 10px;
+    padding-bottom: 8px;
+}
+
+.canal-4-icono {
+    color: #fff;
+    background-color: transparent;
+    border: none;
+}
+
+.canal-4-name {
+    color: #fff;
+    font-size: 14px;
+}
+
+.canal-5 {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    align-items: center;
+    padding-right: 10px;
+    padding-bottom: 8px;
+}
+
+.canal-5-icono {
+    color: #fff;
+    background-color: transparent;
+    border: none;
+}
+
+.canal-5-name {
+    color: #fff;
+    font-size: 14px;
+}
+
+.canal-6 {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    align-items: center;
+    padding-right: 10px;
+    padding-bottom: 8px;
+}
+
+.canal-6-icono {
+    color: #fff;
+    background-color: transparent;
+    border: none;
+}
+
+.canal-6-name {
+    color: #fff;
+    font-size: 14px;
+}
+
+.canal-7 {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    align-items: center;
+    padding-right: 10px;
+    padding-bottom: 8px;
+}
+
+.canal-7-icono {
+    color: #fff;
+    background-color: transparent;
+    border: none;
+}
+
+.canal-7-name {
+    color: #fff;
+    font-size: 14px;
+}
+
+.show-more {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    align-items: center;
+    padding-right: 10px;
+    padding-bottom: 8px;
+}
+
+.show-more-icon {
+    color: #fff;
+    background-color: transparent;
+    border: none;
+}
+
+.show-more-name {
+    color: #fff;
+    font-size: 14px;
+}
 
 
 
